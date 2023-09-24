@@ -1,5 +1,3 @@
-import { NextRequest } from "next/server";
-
 const cards = [
   "A",
   "2",
