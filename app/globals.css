@@ -29,8 +29,11 @@ body {
 #hand {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
   width: fit-content;
+  max-width: 90em;
   margin: 1rem auto 0 auto;
 }
 
@@ -43,4 +46,14 @@ body {
 main {
   text-align: center;
   margin: 2rem;
+}
+
+form > * {
+  margin: 0 1em;
+}
+
+form > input {
+  color: black;
+  max-width: 3em;
+  text-align: center;
 }

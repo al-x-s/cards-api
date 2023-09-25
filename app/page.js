@@ -1,11 +1,9 @@
-import NewHandButton from "./components/NewHandButton.js";
-import Hand from "./components/Hand.js";
+import CardDealer from "./components/CardDealer.js";
 
 export default function Home() {
   return (
     <main>
-      <NewHandButton />
-      <Hand />
+      <CardDealer />
     </main>
   );
 }
